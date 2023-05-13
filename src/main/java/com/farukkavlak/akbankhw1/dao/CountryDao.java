@@ -7,8 +7,6 @@ Created by farukkavlak on 12.05.2023
 
 import com.farukkavlak.akbankhw1.entity.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface CountryDao extends JpaRepository<Country, Long> {
 }
