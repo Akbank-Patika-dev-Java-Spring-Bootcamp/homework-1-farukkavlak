@@ -18,35 +18,35 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Collection;
 
 @RestController
-@RequestMapping("/api/v1/country")
+@RequestMapping("/api/v1/countries")
 @RequiredArgsConstructor
 public class CountryController {
     @Autowired
     private CountryService countryService;
 
     //Get all countries
-    @GetMapping("/getAll")
+    @GetMapping()
     public ResponseEntity getAll() {
         Collection<CountryDto> countries = countryService.getAllCountries();
         return ResponseEntity.ok(RestResponse.of(countries));
     }
 
     //Get country by id
-    @GetMapping("/getById/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity getCountryById(@PathVariable Long id) {
         CountryDto countryDto = countryService.findCountryById(id);
         return ResponseEntity.ok(RestResponse.of(countryDto));
     }
 
     //Create country
-    @PostMapping("/save")
+    @PostMapping()
     public ResponseEntity saveCountry(@RequestBody CountryPostRequestDto countryPostRequestDto) {
         CountryDto countryDto = countryService.saveCountry(countryPostRequestDto);
         return ResponseEntity.ok(RestResponse.of(countryDto));
     }
 
     //Update president name
-    @PatchMapping("/updatePresidentName")
+    @PatchMapping()
     public ResponseEntity updatePresidentName(@RequestBody CountryPatchRequestDto countryPatchRequestDto) {
         countryService.changePresident(countryPatchRequestDto);
         return ResponseEntity.ok(RestResponse.empty());
