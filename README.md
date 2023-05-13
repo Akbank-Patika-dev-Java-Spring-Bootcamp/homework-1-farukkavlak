@@ -24,10 +24,10 @@
 <img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/DB.png"></img>
 
 #### Save Country
-<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Save%20Request.png"></img>
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/SaveCountry.png"></img>
 #### Get All Countries 
-<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Get%20All.png"></img>
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/GetAll.png"></img>
 #### Get Country By Id
-<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Get%20By%20Id.png"></img>
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/GetById.png"></img>
 #### Change President
-<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Update%20President%20Name.png"></img>
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/ChangePresidentName.png"></img>
