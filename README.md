@@ -14,6 +14,7 @@
 - [x] Create an API endpoint that allows a user to retrieve a list of all countries.
 - [x] Create an API endpoint that allows a user to retrieve a specific country by providing its id.
 - [x] Create an API endpoint that allows a user to update the president of a specific country by providing its id and the new president's name.
+- [ ] Error Handling / Business Exceptions (Not completed yet)
 
 ## Project Screenshots
 #### Controller
