@@ -9,4 +9,10 @@
 
 ## Project Requirements
 
+- [x] Define a entity for a country with the fields: id, name, and president name.
+- [x] Create an API endpoint that allows a user to create a new country by providing the country's name and president name.
+- [x] Create an API endpoint that allows a user to retrieve a list of all countries.
+- [x] Create an API endpoint that allows a user to retrieve a specific country by providing its id.
+- [x] Create an API endpoint that allows a user to update the president of a specific country by providing its id and the new president's name.
+
 ## Swagger Screenshots
