@@ -31,7 +31,7 @@ public class CountryService extends BaseEntityService<Country, CountryDao> {
 
     public Collection<CountryDto> getAllCountries() {
         Collection<Country> countries = this.findAll();
-        return CountryMapper.INSTANCE.entitiesToDtos(countries);
+        return CountryMapper.INSTANCE.entityListToDTOList(countries);
     }
 
     public CountryDto findCountryById(Long id) {

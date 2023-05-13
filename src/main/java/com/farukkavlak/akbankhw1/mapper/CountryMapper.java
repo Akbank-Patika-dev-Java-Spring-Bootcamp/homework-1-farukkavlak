@@ -14,7 +14,7 @@ import org.mapstruct.factory.Mappers;
 
 import java.util.Collection;
 
-@Mapper
+@Mapper()
 public interface CountryMapper {
     CountryMapper INSTANCE = Mappers.getMapper(CountryMapper.class);
 
@@ -24,5 +24,5 @@ public interface CountryMapper {
     //Post Request Dto to Entity
     Country postRequestDtoToEntity(CountryPostRequestDto countryPostRequestDto);
     @Mapping(target = "id")
-    Collection<CountryDto> entitiesToDtos(Collection<Country> countries);
+    Collection<CountryDto> entityListToDTOList(Collection<Country> countries);
 }
