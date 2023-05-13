@@ -21,33 +21,32 @@ import java.util.Collection;
 @RequestMapping("/api/v1/countries")
 @RequiredArgsConstructor
 public class CountryController {
-    @Autowired
-    private CountryService countryService;
+    private final CountryService countryService;
 
     //Get all countries
     @GetMapping()
-    public ResponseEntity getAll() {
+    public ResponseEntity findAll() {
         Collection<CountryDto> countries = countryService.getAllCountries();
         return ResponseEntity.ok(RestResponse.of(countries));
     }
 
     //Get country by id
     @GetMapping("/{id}")
-    public ResponseEntity getCountryById(@PathVariable Long id) {
+    public ResponseEntity findById(@PathVariable Long id) {
         CountryDto countryDto = countryService.findCountryById(id);
         return ResponseEntity.ok(RestResponse.of(countryDto));
     }
 
     //Create country
     @PostMapping()
-    public ResponseEntity saveCountry(@RequestBody CountryPostRequestDto countryPostRequestDto) {
+    public ResponseEntity save(@RequestBody CountryPostRequestDto countryPostRequestDto) {
         CountryDto countryDto = countryService.saveCountry(countryPostRequestDto);
         return ResponseEntity.ok(RestResponse.of(countryDto));
     }
 
     //Update president name
     @PatchMapping()
-    public ResponseEntity updatePresidentName(@RequestBody CountryPatchRequestDto countryPatchRequestDto) {
+    public ResponseEntity patchPresident(@RequestBody CountryPatchRequestDto countryPatchRequestDto) {
         countryService.changePresident(countryPatchRequestDto);
         return ResponseEntity.ok(RestResponse.empty());
     }
