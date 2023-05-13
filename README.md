@@ -4,7 +4,7 @@
 
  <p align="center">
   &#8505; <a href="#project-requirements">Project Requirements</a> 
-  &#8505; <a href="#swagger-screenshots">Swagger Screenshots</a> 
+  &#8505; <a href="#project-screenshots">Project Screenshots</a> 
 </p>
 
 ## Project Requirements
