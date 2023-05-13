@@ -15,4 +15,19 @@
 - [x] Create an API endpoint that allows a user to retrieve a specific country by providing its id.
 - [x] Create an API endpoint that allows a user to update the president of a specific country by providing its id and the new president's name.
 
-## Swagger Screenshots
+## Project Screenshots
+#### Controller
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Controller.png"></img>
+#### Schemas
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Schemas.png"></img>
+#### Database Country Entity
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/DB.png"></img>
+
+#### Save Country
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Save%20Request.png"></img>
+#### Get All Countries 
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Get%20All.png"></img>
+#### Get Country By Id
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Get%20By%20Id.png"></img>
+#### Change President
+<img src="https://github.com/Akbank-Patika-dev-Java-Spring-Bootcamp/homework-1-farukkavlak/blob/main/ReadmeScreenshots/Update%20President%20Name.png"></img>
